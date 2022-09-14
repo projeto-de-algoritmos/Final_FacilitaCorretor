@@ -6,7 +6,8 @@ const usersMock = [
     id:  "1",
     name: "Luís Furtado Araujo",
     address: "Rua 3740 parque aguas claras",
-    vehicle: "Audi a4 2.0 TSI"
+    vehicle: "Audi a4 2.0 TSI",
+    phone: "(61) 99913-2352"
   },
   {
     age: 22,
@@ -15,7 +16,8 @@ const usersMock = [
     id:  "2",
     name: "Isadora Soares",
     address: "Colonia agricola - Taguatinga - chac. 2323",
-    vehicle: "Honda civic 1.5T"
+    vehicle: "Honda civic 1.5T",
+    phone: "(61) 94913-2232"
   },
   {
     age: 17,
@@ -24,7 +26,8 @@ const usersMock = [
     id:  "3",
     name: "Fabio Araujo",
     address: "QNJ 23 Casa 1 - Taguatinga - chac. 2323",
-    vehicle: "Honda fit 1.8"
+    vehicle: "Honda fit 1.8",
+    phone: "(61) 94944-2232"
   },
   {
     age: 17,
@@ -33,7 +36,8 @@ const usersMock = [
     id:  "4",
     name: "Flavio Araujo",
     address: "QNJ 23 Casa 1 - Taguatinga - chac. 2323",
-    vehicle: "Honda fit 1.8"
+    vehicle: "Honda fit 1.8",
+    phone: "(61) 92444-2232"
   },
   {
     age: 22,
@@ -42,7 +46,8 @@ const usersMock = [
     id:  "5",
     name: "Felipe Alves",
     address: "QNL 23 Ap 203 - Taguatinga - chac. 2323",
-    vehicle: "Volkswagen Golf 2.0T"
+    vehicle: "Volkswagen Golf 2.0T",
+    phone: "(61) 94944-2242"
   },
   {
     age: 25,
@@ -51,7 +56,8 @@ const usersMock = [
     id:  "6",
     name: "Gabriel Novaes",
     address: "Lago Sul R. 23 - casa 2",
-    vehicle: "Volkswagen Gol 1.6"
+    vehicle: "Volkswagen Gol 1.6",
+    phone: "(61) 94944-2124"
   },
 ];
 

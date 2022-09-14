@@ -40,6 +40,7 @@ function ClientsModal(props) {
               <p>Proprietario: {o.name}</p>
               <p>distancia: {o.distance}</p>
               <p>idade: {o.age}</p>
+              <p>Whatsapp: {o.phone}</p>
               -------
             </div>
           )}
