@@ -1,7 +1,7 @@
 const usersMock = [
   {
     age: 23,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://quatrorodas.abril.com.br/wp-content/uploads/2016/11/580f585b0e2163027009fcf5a4-edit.jpeg?quality=70&strip=all&strip=all",
     distance: 8,
     id:  "1",
     name: "Luís Furtado Araujo",
@@ -10,7 +10,7 @@ const usersMock = [
   },
   {
     age: 22,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://i0.statig.com.br/bancodeimagens/6u/u4/aq/6uu4aq3q6fnom4v72jvn1qv9o.jpg",
     distance: 12,
     id:  "2",
     name: "Isadora Soares",
@@ -19,7 +19,7 @@ const usersMock = [
   },
   {
     age: 17,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://quatrorodas.abril.com.br/wp-content/uploads/2017/09/honda-fit-4.jpg?quality=70&strip=info",
     distance: 22,
     id:  "3",
     name: "Fabio Araujo",
@@ -28,7 +28,7 @@ const usersMock = [
   },
   {
     age: 17,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://quatrorodas.abril.com.br/wp-content/uploads/2017/09/honda-fit-4.jpg?quality=70&strip=info",
     distance: 22,
     id:  "4",
     name: "Flavio Araujo",
@@ -37,7 +37,7 @@ const usersMock = [
   },
   {
     age: 22,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://fotos.jornaldocarro.estadao.com.br/uploads/2019/10/25110257/48366479-1160x773.jpg",
     distance: 30,
     id:  "5",
     name: "Felipe Alves",
@@ -46,7 +46,7 @@ const usersMock = [
   },
   {
     age: 25,
-    avatar: "http://placeimg.com/640/480/vehicle",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTq_zgOmeraVBR4f-PFRSRqWgfSjJi43tBg&usqp=CAU",
     distance: 102323,
     id:  "6",
     name: "Gabriel Novaes",

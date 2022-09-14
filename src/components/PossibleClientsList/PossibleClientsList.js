@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import ClientCard from "react-tinder-card";
 import "./PossibleClientsList.css";
 import Graph from "../../scripts/graph.js";
@@ -102,11 +102,12 @@ function PossibleClientsList() {
                 >
                 </div>
                 <div style={{ backgroundColor: 'white', width: '100%'}}>
-                  <p>nome: {possibleClient.name}</p>
-                  <p>distancia: {possibleClient.distance}km</p>
-                  <p>idade: {possibleClient.age}</p>
+                  <p>veículo: {possibleClient.vehicle}</p>
+                  <p>proprietario: {possibleClient.name}</p>
+                  <p>distancia localização: {possibleClient.distance}km</p>
+                  <p>idade proprietario: {possibleClient.age}</p>
                 </div>
-                <p>arraste pro lado esquerdo para adicionar potencial cliente</p>
+                <p><br></br>arraste pro lado esquerdo para adicionar potencial cliente</p>
                 <p>arraste pro lado direito para pular potencial cliente</p>
               </ClientCard>
               </>

@@ -36,7 +36,8 @@ function ClientsModal(props) {
           {props && props.users && props.users.length && props.users.map((o, i) => 
             <div>
               Cliente {i}
-              <p>nome: {o.name}</p>
+              <p>Veiculo: {o.vehicle}</p>
+              <p>Proprietario: {o.name}</p>
               <p>distancia: {o.distance}</p>
               <p>idade: {o.age}</p>
               -------
