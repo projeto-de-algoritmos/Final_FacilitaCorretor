@@ -33,6 +33,6 @@ add images here
 
 3. Instale as dependências necessárias (lembre de estar com node na versão 16 ou superior): npm install <br>
 
-Roda o aplicativo em modo de desenvolvimento: npm startt<br>
+4. Roda o aplicativo em modo de desenvolvimento: npm start<br>
 
-O projeto estará rodando localmente no endereço: _http://localhost:3000_
+Resultado: O projeto estará rodando localmente no endereço: _http://localhost:3000_
