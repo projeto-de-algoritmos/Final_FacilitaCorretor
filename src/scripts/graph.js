@@ -1,40 +1,40 @@
 export default class Graph {
     constructor() {
-        this.vertices = [];
-        this.adjacencyList = {};
+        this.vert = [];
+        this.adj = {};
     }
 
-    addVertex(vertex) {
-        this.vertices.push(vertex);
-        this.adjacencyList[vertex] = {};
+    changeWeight(v1, v2, weight) {
+        this.adj[v1][v2] = weight;
     }
 
-    addEdge(vertex1, vertex2, weight) {
-        this.adjacencyList[vertex1][vertex2] = weight;
+    addEdge(v1, v2, weight) {
+        this.adj[v1][v2] = weight;
     }
 
-    changeWeight(vertex1, vertex2, weight) {
-        this.adjacencyList[vertex1][vertex2] = weight;
+    addVertex(v) {
+        this.vert.push(v);
+        this.adj[v] = {};
     }
 
     dijkstra(source) {
         let distances = {},
             parents = {},
             visited = new Set();
-        for (let i = 0; i < this.vertices.length; i++) {
-            if (this.vertices[i] === source) {
+        for (let i = 0; i < this.vert.length; i++) {
+            if (this.vert[i] === source) {
                 distances[source] = 0;
             } else {
-                distances[this.vertices[i]] = Infinity;
+                distances[this.vert[i]] = Infinity;
             }
-            parents[this.vertices[i]] = null;
+            parents[this.vert[i]] = null;
         }
 
         let currVertex = this.vertexWithMinDistance(distances, visited);
 
         while (currVertex !== null) {
             let distance = distances[currVertex],
-                neighbors = this.adjacencyList[currVertex];
+                neighbors = this.adj[currVertex];
             for (let neighbor in neighbors) {
                 let newDistance = distance + neighbors[neighbor];
                 if (distances[neighbor] > newDistance) {
@@ -45,19 +45,16 @@ export default class Graph {
             visited.add(currVertex);
             currVertex = this.vertexWithMinDistance(distances, visited);
         }
-
-        console.log(parents);
-        console.log(distances);
     }
 
     vertexWithMinDistance(distances, visited) {
         let minDistance = Infinity,
             minVertex = null;
-        for (let vertex in distances) {
-            let distance = distances[vertex];
-            if (distance < minDistance && !visited.has(vertex)) {
+        for (let v in distances) {
+            let distance = distances[v];
+            if (distance < minDistance && !visited.has(v)) {
                 minDistance = distance;
-                minVertex = vertex;
+                minVertex = v;
             }
         }
         return minVertex;
