@@ -16,15 +16,14 @@ Facilita corretor é um app que busca simplificar a vida de um corretor de segur
 
 ## Screenshots
 
-![img-1](./screenshots/1.png)
-![img-1](./screenshots/2.png)
+add images here
+
 
 ## Instalação
 
 **Linguagem**: Javascript<br>
 **Framework**: ReactJS<br>
-**Pré-requisitos:**:<br>
-Node.JS na versão 16 ou superior.
+**Pré-requisitos:**: Node.JS na versão 16 ou superior<br>
 
 ## Uso
 
