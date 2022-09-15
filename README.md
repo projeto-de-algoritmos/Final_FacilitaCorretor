@@ -5,10 +5,10 @@
 
 ## Alunos
 
-| Matrícula  | Aluno                                                        |
-| ---------- | ------------------------------------------------------------ |
-| 18/0042661 | Luís Furtado Araújo  |
-|  | Isadora Soares |
+| Matrícula  | Aluno               |
+| ---------- | ------------------- |
+| 18/0042661 | Luís Furtado Araújo |
+| 18/0122606 | Isadora Soares      |
 
 ## Sobre
 
@@ -16,8 +16,8 @@ Facilita corretor é um app que busca simplificar a vida de um corretor de segur
 
 ## Screenshots
 
-add images here
-
+![foto](/src/assets/screen1.png)
+![foto2](/src/assets/screen2.png)
 
 ## Instalação
 
@@ -36,3 +36,7 @@ add images here
 4. Roda o aplicativo em modo de desenvolvimento: npm start<br>
 
 Resultado: O projeto estará rodando localmente no endereço: _http://localhost:3000_
+
+## Video
+
+https://github.com/projeto-de-algoritmos/Final_FacilitaCorretor/tree/main/src/assets/video.mp4
